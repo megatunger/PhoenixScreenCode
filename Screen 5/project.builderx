@@ -1,0 +1,26 @@
+{
+    "artboards": [
+        "/src/screens/LoyaltyCards.js"
+    ],
+    "symbols": [
+        "/src/symbols/Footer.js",
+        "/src/symbols/Header.js",
+        "/src/symbols/header1.js",
+        "/src/symbols/iconTextButtons.js",
+        "/src/symbols/MyLoyaltyCard.js",
+        "/src/symbols/Bound.js"
+    ],
+    "assets": [],
+    "defaultArtboardDirectory": "/src/screens",
+    "defaultSymbolDirectory": "/src/symbols",
+    "defaultAssetDirectory": "/src/assets",
+    "deviceName": "Nexus 5",
+    "deviceOrientation": "portrait",
+    "basePath": "/Volumes/Data/DeoDuocLoi/PhoenixScreenCode/Screen 5",
+    "tempPath": "/var/folders/62/hm0gvmcj4kjcnrv1b1lg9d0w0000gn/T/BuilderAsRyQHc",
+    "useStylesheet": true,
+    "rulers": {},
+    "missingFonts": [
+        "Roboto"
+    ]
+}
