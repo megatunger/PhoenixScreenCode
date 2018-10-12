@@ -35,8 +35,8 @@ export default class header1 extends Component {
             name="account-circle"
             type="MaterialCommunityIcons"
           />
+          <Text style={styles.name}>Tùng</Text>
         </TouchableOpacity>
-        <Text style={styles.text2}>Tùng</Text>
       </View>
     );
   }
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
-    backgroundColor: "#3F51B5",
+    backgroundColor: "rgba(255,87,34,1)",
     padding: 4,
     shadowColor: "#111",
     shadowOffset: {
@@ -55,10 +55,11 @@ const styles = StyleSheet.create({
       height: 2
     },
     shadowOpacity: 0.2,
-    shadowRadius: 1.2
+    shadowRadius: 1.2,
+    opacity: 1
   },
   leftIconButton: {
-    top: 5,
+    top: 10,
     left: 15.92,
     position: "absolute",
     padding: 11
@@ -81,7 +82,7 @@ const styles = StyleSheet.create({
     letterSpacing: 0
   },
   rightIconButton: {
-    top: 5,
+    top: 10,
     right: 15,
     position: "absolute",
     alignItems: "center",
@@ -101,11 +102,13 @@ const styles = StyleSheet.create({
     backgroundColor: "transparent",
     color: "rgba(255,255,255,1)"
   },
-  text2: {
+  name: {
+    top: 41,
+    left: 8,
+    width: 31,
+    height: 13,
     position: "absolute",
     backgroundColor: "transparent",
-    color: "rgba(255,255,255,1)",
-    left: "85.87%",
-    top: "58.75%"
+    color: "rgba(255,255,255,1)"
   }
 });

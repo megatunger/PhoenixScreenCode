@@ -6,7 +6,16 @@
     "symbols": [
         "/src/symbols/header1.js",
         "/src/symbols/iconTextButtons.js",
-        "/src/symbols/carousal.js"
+        "/src/symbols/carousal.js",
+        "/src/symbols/carousal1.js",
+        "/src/symbols/LineBreak.js",
+        "/src/symbols/card10.js",
+        "/src/symbols/card12.js",
+        "/src/symbols/card13.js",
+        "/src/symbols/card11.js",
+        "/src/symbols/card1.js",
+        "/src/symbols/card9.js",
+        "/src/symbols/CardData.js"
     ],
     "assets": [],
     "defaultArtboardDirectory": "/src/screens",

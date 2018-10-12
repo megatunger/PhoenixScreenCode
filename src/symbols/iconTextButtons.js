@@ -6,36 +6,44 @@ export default class iconTextButtons extends Component {
   // Only for displaying symbol in BuilderX.
   static containerStyle = {
     height: 56,
-    width: 375,
+    width: 36,
     defaultHeight: "fixed",
     defaultWidth: "fixed"
   };
   render() {
     return (
       <View style={[styles.root, this.props.style]}>
-        <TouchableOpacity style={styles.buttonWrapper1}>
-          <Icon
-            style={styles.icon1}
-            name="timer"
-            type="MaterialCommunityIcons"
-          />
-          <Text style={styles.content1}>Recent</Text>
-        </TouchableOpacity>
         <TouchableOpacity style={styles.activeButtonWrapper}>
           <Icon
             style={styles.activeIcon}
-            name="heart"
+            name="home-circle"
             type="MaterialCommunityIcons"
           />
-          <Text style={styles.activeContent}>Favorites</Text>
+          <Text style={styles.activeContent}>Home</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.button3}>
+          <Icon
+            style={styles.icon1}
+            name="account-heart"
+            type="MaterialCommunityIcons"
+          />
+          <Text style={styles.content1}>Wishlist</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.buttonWrapper2}>
           <Icon
             style={styles.icon2}
-            name="map-marker-radius"
+            name="wallet-giftcard"
             type="MaterialCommunityIcons"
           />
-          <Text style={styles.content2}>Nearby</Text>
+          <Text style={styles.content2}>Voucher</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.button4}>
+          <Icon
+            style={styles.icon3}
+            name="coin"
+            type="MaterialCommunityIcons"
+          />
+          <Text style={styles.text}>Trading</Text>
         </TouchableOpacity>
       </View>
     );
@@ -54,15 +62,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.2,
     shadowRadius: 1.2
   },
-  buttonWrapper1: {
-    flex: 1,
-    flexDirection: "column",
-    alignItems: "center",
-    paddingTop: 8,
-    paddingBottom: 10,
-    minWidth: 80,
-    maxWidth: 168
-  },
+
   icon1: {
     backgroundColor: "transparent",
     opacity: 0.8,
@@ -77,18 +77,18 @@ const styles = StyleSheet.create({
     color: "#9E9E9E"
   },
   activeButtonWrapper: {
-    flex: 1,
     flexDirection: "column",
     alignItems: "center",
     paddingTop: 6,
     paddingBottom: 10,
     minWidth: 80,
-    maxWidth: 168
+    maxWidth: 168,
+    width: 90
   },
   activeIcon: {
     backgroundColor: "transparent",
     opacity: 0.8,
-    color: "#3f51b5",
+    color: "rgba(230,74,25,1)",
     fontSize: 24
   },
   activeContent: {
@@ -96,10 +96,10 @@ const styles = StyleSheet.create({
     paddingTop: 4,
     fontSize: 14,
     fontFamily: "Roboto",
-    color: "#3f51b5"
+    color: "rgba(230,74,25,1)"
   },
   buttonWrapper2: {
-    flex: 1,
+    flex: 0.5,
     flexDirection: "column",
     alignItems: "center",
     paddingTop: 8,
@@ -114,6 +114,37 @@ const styles = StyleSheet.create({
     fontSize: 24
   },
   content2: {
+    backgroundColor: "transparent",
+    paddingTop: 4,
+    fontSize: 12,
+    fontFamily: "Roboto",
+    color: "#9E9E9E"
+  },
+  button3: {
+    flexDirection: "column",
+    alignItems: "center",
+    paddingTop: 8,
+    paddingBottom: 10,
+    minWidth: 80,
+    maxWidth: 168,
+    width: 90
+  },
+  button4: {
+    flex: 0.5,
+    flexDirection: "column",
+    alignItems: "center",
+    paddingTop: 8,
+    paddingBottom: 10,
+    minWidth: 80,
+    maxWidth: 168
+  },
+  icon3: {
+    backgroundColor: "transparent",
+    opacity: 0.8,
+    color: "#616161",
+    fontSize: 24
+  },
+  text: {
     backgroundColor: "transparent",
     paddingTop: 4,
     fontSize: 12,
