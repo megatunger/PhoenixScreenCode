@@ -1,0 +1,24 @@
+{
+    "artboards": [
+        "/src/screens/HomeScreen.js",
+        "/src/screens/Trading.js"
+    ],
+    "symbols": [
+        "/src/symbols/header1.js",
+        "/src/symbols/iconTextButtons.js",
+        "/src/symbols/carousal.js"
+    ],
+    "assets": [],
+    "defaultArtboardDirectory": "/src/screens",
+    "defaultSymbolDirectory": "/src/symbols",
+    "defaultAssetDirectory": "/src/assets",
+    "deviceName": "Google Pixel XL",
+    "deviceOrientation": "portrait",
+    "basePath": "/Volumes/Data/DeoDuocLoi/PhoenixScreenCode",
+    "tempPath": "/var/folders/62/hm0gvmcj4kjcnrv1b1lg9d0w0000gn/T/Builderd20xRyQ",
+    "useStylesheet": true,
+    "rulers": {},
+    "missingFonts": [
+        "Roboto"
+    ]
+}
