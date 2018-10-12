@@ -1,12 +1,12 @@
 {
     "artboards": [
         "/src/screens/HomeScreen.js",
-        "/src/screens/Trading.js"
+        "/src/screens/Trading.js",
+        "/src/screens/Untitled.js"
     ],
     "symbols": [
         "/src/symbols/header1.js",
         "/src/symbols/iconTextButtons.js",
-        "/src/symbols/carousal.js",
         "/src/symbols/carousal1.js",
         "/src/symbols/LineBreak.js",
         "/src/symbols/card10.js",
@@ -14,8 +14,27 @@
         "/src/symbols/card13.js",
         "/src/symbols/card11.js",
         "/src/symbols/card1.js",
-        "/src/symbols/card9.js",
-        "/src/symbols/CardData.js"
+        "/src/symbols/Header.js",
+        "/src/symbols/Footer.js",
+        "/src/symbols/list4.js",
+        "/src/symbols/list15.js",
+        "/src/symbols/list13.js",
+        "/src/symbols/list10.js",
+        "/src/symbols/list8.js",
+        "/src/symbols/list9.js",
+        "/src/symbols/list7.js",
+        "/src/symbols/list5.js",
+        "/src/symbols/list3.js",
+        "/src/symbols/list151.js",
+        "/src/symbols/list14.js",
+        "/src/symbols/list41.js",
+        "/src/symbols/ExchangeIllu.js",
+        "/src/symbols/card91.js",
+        "/src/symbols/Divider.js",
+        "/src/symbols/Card.js",
+        "/src/symbols/VoucherHome.js",
+        "/src/symbols/EarnPoints.js",
+        "/src/symbols/TheDuLieu.js"
     ],
     "assets": [],
     "defaultArtboardDirectory": "/src/screens",

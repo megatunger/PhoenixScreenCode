@@ -4,6 +4,7 @@ import { Font } from "expo";
 import HomeScreen from "./src/screens/HomeScreen";
 import Trading from "./src/screens/Trading";
 
+import Untitled from "./src/screens/Untitled";
 import { StackNavigator, DrawerNavigator } from "react-navigation";
 const DrawerNavigation = DrawerNavigator({
   HomeScreen: {
@@ -11,6 +12,9 @@ const DrawerNavigation = DrawerNavigator({
   },
   Trading: {
     screen: Trading
+  },
+  Untitled: {
+    screen: Untitled
   }
 });
 const StackNavigation = StackNavigator(
@@ -23,6 +27,9 @@ const StackNavigation = StackNavigator(
     },
     Trading: {
       screen: Trading
+    },
+    Untitled: {
+      screen: Untitled
     }
   },
   {

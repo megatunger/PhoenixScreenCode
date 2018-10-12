@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
     backgroundColor: "transparent",
     color: "rgba(255,255,255,1)",
     textAlign: "center",
-    fontFamily: "Roboto-Light",
+    fontFamily: "Roboto-Medium",
     lineHeight: 28,
     letterSpacing: 2,
     fontSize: 28,
