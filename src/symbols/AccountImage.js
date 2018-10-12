@@ -9,7 +9,7 @@ export default class AccountImage extends Component {
   };
   render() {
     return (
-      <View style={[this.props.style]}>
+      <View style={[styles.root, this.props.style]}>
         <Image
           style={styles.image}
           source={require("../assets/daniel-monteiro-643335-unsplash.jpg")}
@@ -22,6 +22,18 @@ const styles = StyleSheet.create({
   image: {
     width: 150,
     height: 149,
-    borderRadius: 100
+    borderRadius: 100,
+    borderWidth: 2,
+    borderColor: "rgba(210,210,210,1)"
+  },
+  root: {
+    shadowColor: "rgba(0,0,0,1)",
+    shadowOffset: {
+      width: 0,
+      height: 2
+    },
+    shadowRadius: 0,
+    elevation: 0,
+    shadowOpacity: 1
   }
 });

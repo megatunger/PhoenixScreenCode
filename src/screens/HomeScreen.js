@@ -26,8 +26,6 @@ export default class HomeScreen extends Component {
           Earn points by shops
         </Text>
         <Card91 style={styles.card912} />
-        <Card91 style={styles.card913} />
-        <Card91 style={styles.card914} />
       </View>
     );
   }
@@ -99,19 +97,5 @@ const styles = StyleSheet.create({
     height: 100,
     position: "absolute",
     left: "51.94%"
-  },
-  card913: {
-    top: "49.84%",
-    left: "51.94%",
-    width: 160,
-    height: 100,
-    position: "absolute"
-  },
-  card914: {
-    top: "49.9%",
-    left: 20,
-    width: 160,
-    height: 100,
-    position: "absolute"
   }
 });

@@ -37,7 +37,9 @@
         "/src/symbols/TheDuLieu.js",
         "/src/symbols/AccountHeader.js",
         "/src/symbols/AccountImage.js",
-        "/src/symbols/Avatar.js"
+        "/src/symbols/Avatar.js",
+        "/src/symbols/helperTextBox.js",
+        "/src/symbols/rightIconTextbox.js"
     ],
     "assets": [],
     "defaultArtboardDirectory": "/src/screens",
