@@ -35,8 +35,8 @@ export default class header1 extends Component {
             name="account-circle"
             type="MaterialCommunityIcons"
           />
-          <Text style={styles.name}>Tùng</Text>
         </TouchableOpacity>
+        <Text style={styles.text2}>Susan</Text>
       </View>
     );
   }
@@ -102,11 +102,9 @@ const styles = StyleSheet.create({
     backgroundColor: "transparent",
     color: "rgba(255,255,255,1)"
   },
-  name: {
-    top: 41,
-    left: 8,
-    width: 31,
-    height: 13,
+  text2: {
+    top: 49,
+    left: 302.5,
     position: "absolute",
     backgroundColor: "transparent",
     color: "rgba(255,255,255,1)"

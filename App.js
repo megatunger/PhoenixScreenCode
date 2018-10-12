@@ -5,6 +5,7 @@ import HomeScreen from "./src/screens/HomeScreen";
 import Trading from "./src/screens/Trading";
 
 import Untitled from "./src/screens/Untitled";
+import Account from "./src/screens/Account";
 import { StackNavigator, DrawerNavigator } from "react-navigation";
 const DrawerNavigation = DrawerNavigator({
   HomeScreen: {
@@ -13,8 +14,8 @@ const DrawerNavigation = DrawerNavigator({
   Trading: {
     screen: Trading
   },
-  Untitled: {
-    screen: Untitled
+  Account: {
+    screen: Account
   }
 });
 const StackNavigation = StackNavigator(
@@ -28,8 +29,8 @@ const StackNavigation = StackNavigator(
     Trading: {
       screen: Trading
     },
-    Untitled: {
-      screen: Untitled
+    Account: {
+      screen: Account
     }
   },
   {

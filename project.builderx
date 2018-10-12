@@ -2,7 +2,7 @@
     "artboards": [
         "/src/screens/HomeScreen.js",
         "/src/screens/Trading.js",
-        "/src/screens/Untitled.js"
+        "/src/screens/Account.js"
     ],
     "symbols": [
         "/src/symbols/header1.js",
@@ -34,7 +34,10 @@
         "/src/symbols/Card.js",
         "/src/symbols/VoucherHome.js",
         "/src/symbols/EarnPoints.js",
-        "/src/symbols/TheDuLieu.js"
+        "/src/symbols/TheDuLieu.js",
+        "/src/symbols/AccountHeader.js",
+        "/src/symbols/AccountImage.js",
+        "/src/symbols/Avatar.js"
     ],
     "assets": [],
     "defaultArtboardDirectory": "/src/screens",
