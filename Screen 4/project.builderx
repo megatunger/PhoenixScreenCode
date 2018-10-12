@@ -1,0 +1,26 @@
+{
+    "artboards": [
+        "/src/screens/Wishlist.js"
+    ],
+    "symbols": [
+        "/src/symbols/checkbox.js",
+        "/src/symbols/Footer.js",
+        "/src/symbols/Header.js",
+        "/src/symbols/header1.js",
+        "/src/symbols/ShopCardData.js",
+        "/src/symbols/iconTextButtons.js"
+    ],
+    "assets": [],
+    "defaultArtboardDirectory": "/src/screens",
+    "defaultSymbolDirectory": "/src/symbols",
+    "defaultAssetDirectory": "/src/assets",
+    "deviceName": "Nexus 5",
+    "deviceOrientation": "portrait",
+    "basePath": "/Volumes/Data/DeoDuocLoi/PhoenixScreenCode/Screen 4",
+    "tempPath": "/var/folders/62/hm0gvmcj4kjcnrv1b1lg9d0w0000gn/T/Builder4NKs9s9",
+    "useStylesheet": true,
+    "rulers": {},
+    "missingFonts": [
+        "Roboto"
+    ]
+}
