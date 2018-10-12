@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import Header1 from "../symbols/header1";
 import IconTextButtons from "../symbols/iconTextButtons";
+import { Center } from "@builderx/utils";
+import Carousal1 from "../symbols/carousal1";
 import Card91 from "../symbols/card91";
 import Divider from "../symbols/Divider";
-import EarnPoints from "../symbols/EarnPoints";
-
 import { View, StyleSheet, StatusBar, Text } from "react-native";
 
 export default class HomeScreen extends Component {
@@ -18,7 +18,7 @@ export default class HomeScreen extends Component {
         />
         <Header1 style={styles.header1} />
         <IconTextButtons style={styles.iconTextButtons} />
-        <EarnPoints style={styles.earnPoints} />
+        <Carousal1 style={styles.carousal1} />
         <Divider style={styles.divider} />
         <Text style={styles.text}>Use your points to get voucher</Text>
         <Card91 style={styles.card91} />
@@ -51,6 +51,13 @@ const styles = StyleSheet.create({
     position: "absolute",
     height: 57,
     width: 360
+  },
+  carousal1: {
+    top: 80,
+    position: "absolute",
+    height: 160,
+    left: 0,
+    right: 0
   },
   text: {
     height: 20,
@@ -105,13 +112,6 @@ const styles = StyleSheet.create({
     left: 20,
     width: 160,
     height: 100,
-    position: "absolute"
-  },
-  earnPoints: {
-    top: 284,
-    left: 14,
-    width: 328,
-    height: 377,
     position: "absolute"
   }
 });
